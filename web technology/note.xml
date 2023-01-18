@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE note[
+<!ELEMENT note (to, form, subject, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+]>
+	<note>
+		<to>Roshan</to>
+		<from>Koteshwor</from>	
+		<subject>math</subject> 
+		<body>leg</body>			
+	</note>

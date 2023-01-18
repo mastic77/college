@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/738cfe24b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body background="">
+    <form class="box">
+        <b>Candidate Name</b>
+        <br>
+        <label for="\name" class="box">First Name:</label>
+        <input type="text">
+        <span for="name" class="box">Middle Name:</span>
+        <input type="text">
+        <span for="name" class="box">Last name:</span>
+        <input type="text">
+        <br>
+        <span for="name">Father Name:</span>
+        <br>
+        <label for="name">First Name:</label>
+        <input type="text">
+        <label for="name">Middle Name:</label>
+        <input type="text">
+        <label for="name">Last name:</label>
+        <input type="text">
+        <br><br>
+        <i>Mother Name</i>
+        <br><br>
+        <label for="name">First Name</label>
+        <input type="text">
+        <label for="name">Middle Name:</label>
+        <input type="text">
+        <label for="name">Last name:</label>
+        <input type="text">
+        <br><br>
+        <label for="phone">Contact number:</label>
+        <input type="tel">
+        <br><br><br>
+        <label for="email">Email</label>
+        <input type="text">
+        <br><br>
+        <label for="gender ">GENDER</label>
+        <br><br>
+        <label for="male">male</label>
+        <input type="radio" class="gen" name="gender">
+        <label for="female">female</label>
+        <input type="radio" class="gen" name="gender">
+        <label for="Others">Others</label>
+        <input type="radio" class="gen" name="gender">
+        <br><br>
+        <b>Hobbies</b>
+        <br><br>
+        <label for="hobbies">reading</label>
+        <input type="checkbox" name="20">
+        <label for="hobbies">writing</label>
+        <input type="checkbox" name="20">
+        <label for="hobbies">drawing</label>
+        <input type="checkbox" name="20">
+        <label for="Types of  organizatioz"></label>
+        <br><br>
+        <div class="container">
+            <button type="submit" class="btn" onclick="openpopup">Submit</button>
+            <div class="popup" id="popup">
+                <img src="404-tick.png" alt="">
+                <h2>Thank You!!</h2>
+                <p>Your detial has been succesfully submited . Thanks!!</p>
+                <button type="button" onclick="closepopup">OK</button>
+            </div>
+        </div>
+        
+        <br> <br>
+        <a href="tabel.html" class="tex">College Time</a>
+        <br><br>
+        <b class="box">Contact US</b>
+        <br>
+        <br>
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <br>
+        <a href="tabel.html" style="background-color: rgb(210, 12, 12);">Sedduel</a>
+
+    </form>
+    <script>
+        let popup = document.getElementById("popup");
+        function openpopup(){
+            popup.classList.add("open-popup");
+        }
+        function closepopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+
+</html>

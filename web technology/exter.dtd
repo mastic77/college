@@ -1,0 +1,6 @@
+<!ELEMENT notes (note*)
+<!ELEMENT note (to, form, subject, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT to (#PCDATA)>

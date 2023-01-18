@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+	<!DOCTYPE nodes SYSTEM "exter.dtd">
+<notes>
+<note>
+		<to>Roshan</to>
+		<from>Koteshwor</from>	
+		<subject>math</subject> 
+		<body>leg</body>			
+	</note>
+
+<note>
+		<to>sonu</to>
+		<from>lagunkel</from>	
+		<subject>tiktok</subject> 
+		<body>slim</body>			
+	</note>
+<note>
+		<to>baibhav</to>
+		<from>dhapakel</from>	
+		<subject>netflix</subject> 
+		<body>fat</body>			
+	</note>
+</notes>
